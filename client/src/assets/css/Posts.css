@@ -1,0 +1,14 @@
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+}
+.posts__post {
+	border: 1px solid rgb(221, 178, 178);
+	padding: 40px;
+	flex: 0.2;
+}
+.posts__submit {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.bg__container {
+	margin-bottom: 550px;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 100px;
+	will-change: opacity;
+}

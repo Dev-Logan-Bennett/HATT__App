@@ -1,0 +1,64 @@
+.trails-main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.trails-text {
+	position: relative;
+	width: 100%;
+	height: 110px;
+	line-height: 110px;
+	color: black;
+	font-size: 4em;
+	font-weight: 400;
+	letter-spacing: -9px;
+	will-change: transform, opacity;
+	text-align: center;
+}
+.fadeText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-top: 60vh;
+}
+.fadeText__container {
+	display: flex;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 50%;
+	border: 0.3rem solid #9d2235;
+	text-align: center;
+	margin-top: 40px;
+}
+.fadeText__container:hover {
+	background-color: #baa682;
+	transition: all 700ms;
+}
+.fadeText__container > h1 {
+	font-weight: 550;
+}
+.fadeText__container > p {
+	width: 100%;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 2rem;
+	padding: 30px;
+	padding-top: 10px;
+}
+@media screen and (max-width: 800px) {
+	.fadeText__container {
+		width: 90%;
+	}
+}

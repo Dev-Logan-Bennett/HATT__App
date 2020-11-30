@@ -1,0 +1,48 @@
+.loginLanding__perks {
+	min-height: 60vh;
+	background-color: #9d2235;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.loginLanding__perksIcons {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.loginLanding__perksIcons > .twoIcons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0.4;
+}
+.loginLanding__perksIcons > .twoIcons > .content > .MuiSvgIcon-root {
+	font-size: 80px;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 40px;
+}
+.loginLanding__perksIcons > .twoIcons > .content {
+	display: flex;
+	flex: 0.4;
+	align-items: center;
+	justify-content: center;
+}
+.loginLanding__perksIcons > .twoIcons > .content > p {
+	width: 80%;
+	margin-bottom: 30px;
+}
+.loginLanding__perks > h1 {
+	flex: 0.2;
+}
+
+@media screen and (max-width: 900px) {
+	.loginLanding__perksIcons > .twoIcons {
+		flex-wrap: wrap;
+	}
+	.loginLanding__perksIcons > .twoIcons > .content {
+		flex-wrap: wrap;
+	}
+}

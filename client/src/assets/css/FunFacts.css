@@ -1,0 +1,17 @@
+.funFacts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.funFacts > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.funFacts > div > h4 {
+	text-align: center;
+	padding: 10px;
+}

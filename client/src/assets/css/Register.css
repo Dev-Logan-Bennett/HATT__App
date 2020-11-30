@@ -1,0 +1,30 @@
+.register {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 30px;
+	padding-top: 10vh;
+}
+.register__form {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	height: 60vh;
+	width: 60vh;
+	border: 1px solid red;
+	border-radius: 30px;
+}
+.register__form > span {
+	width: 100%;
+	font-size: 30px;
+	font-weight: 200;
+	background-color: rgb(223, 112, 112);
+	height: 10vh;
+	border-radius: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

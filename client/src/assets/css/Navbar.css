@@ -1,0 +1,24 @@
+.navbar {
+	display: flex;
+	z-index: 999;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #123;
+}
+.navbar__brand {
+	flex: 0.6;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+.navbar__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style-type: none;
+}
+.navbar__nav > .navbar__item {
+	padding: 20px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}

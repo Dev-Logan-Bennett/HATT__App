@@ -1,0 +1,49 @@
+.loginForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 30px;
+	background-color: rgb(209, 226, 226);
+}
+.loginForm__form {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	height: 40vh;
+	width: 320px;
+	border: 9px solid #9d2235;
+}
+.loginForm__form > span {
+	width: 100%;
+	font-size: 30px;
+	font-weight: 200;
+	background-color: rgb(49, 49, 49);
+	height: 60px;
+	color: whitesmoke;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.MuiButton-containedPrimary {
+	background-color: #9d2235 !important;
+}
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 100%;
+}
+.logo > img {
+	width: 300px;
+	object-fit: contain;
+}
+@media screen and (max-width: 800px) {
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+}

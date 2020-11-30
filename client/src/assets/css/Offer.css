@@ -1,0 +1,129 @@
+/* .offer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.offer > h1 {
+	font-size: 38px;
+	font-weight: 400;
+}
+.offer > .offerDescription {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #9d2235;
+}
+.offer > .offerDescription > div {
+	display: flex;
+	flex-direction: column;
+}
+.offer > .offerDescription > h1 {
+	flex: 0.3;
+	margin-left: 90px;
+}
+.offer > .offerDescription > .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	flex: 0.6;
+	min-width: 40%;
+}
+.offer > .offerDescription > .content > h1 {
+	font-size: 28px;
+	padding-bottom: 10px;
+}
+.offer > .offerDescription > .content > p {
+	line-height: 2.1;
+	flex: 0.6;
+}
+.offer > .offerDescription > .image > img {
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+.offer > .offerDescription > .image2 > img {
+	max-height: 500px;
+	max-width: 500px;
+	margin-top: 20px;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 800px) {
+	.offer > .offerDescription {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.offer > .offerDescription > h1 {
+		margin-left: 0px;
+	}
+	.offer > .offerDescription > .content {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+} */
+.offer {
+	display: flex;
+	flex-direction: column;
+	background-color: whitesmoke;
+	min-height: 80vh;
+}
+.offer__title {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	flex: 0.5;
+}
+.offer__title > h1 {
+	font-size: 46px;
+	font-weight: 800;
+}
+.offer__title > h3 {
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: 300;
+	width: 50%;
+}
+.offer__description {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+.set {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.offer__description > div > img {
+	width: 500px;
+	object-fit: contain;
+}
+.offer__description > div > h2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.offer__description > div > p {
+	font-weight: 300;
+	font-size: 16px;
+	width: 500px;
+}
+.offer__button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
